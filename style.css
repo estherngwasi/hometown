@@ -2,7 +2,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .introduction{
-    background-image: url('images/city.jpg');
+    background-image: url('city.jpg');
     background-size: cover;
     background-position: center;
     color: white;
