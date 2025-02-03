@@ -1,0 +1,147 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.introduction{
+    background-image: url('images/city.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    height: 50vh;
+}
+.introduction h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block; /* Make the background box fit the content */
+}
+
+.introduction h1:hover{
+    color: aquamarine;
+    font-size: 3.2rem;
+}
+
+.introduction p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    padding: 30px;
+    gap: 20px;
+}
+
+/* Individual activity item */
+
+/* Image styling */
+.activities-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Heading and text inside the activity */
+.activities-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.activities-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Hover effect for activity items */
+.activities-item:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+.activities-item {
+    /* Correctly defined styles for activity items */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px; /* Limit the width of each activity */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Styling for the guide section */
+.guide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.guide-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.guide {
+    max-width: 600px;
+}
+
+.guide h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.guide p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-button:hover {
+    background-color: #007b8f;
+}
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for spacing */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem; /* Adjust font size */
+    border-top: 3px solid #f1f1f1; /* Light top border for distinction */
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Optional hover effect for the copyright text */
+footer p:hover {
+    color: aquamarine; /* Change text color on hover */
+    transition: color 0.3s ease;
+}
+
+
